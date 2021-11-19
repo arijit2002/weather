@@ -1,5 +1,5 @@
 let weather={
-    "key":"ae64ce08dc2556b33696747bf643780f",
+    "key":"YOUR API_KEY",
     fetchweather:function(city)
     {
         fetch(
