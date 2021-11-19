@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" rel="stylesheet" type="text/css">
+    <title>Weather</title>
+</head>
+<body>
+    <div>
+        <div class="container">
+            <span><h3 id="Weather1">WEATHER REPORT</h3></span>
+            <div class="search">
+                <input type="text" placeholder="Enter the city name" class="search-bar">
+                <button class="sb"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="info">
+                <p class="name">City ----<b></b></p>
+                <p class="temp"><b>Temperature: ---- °C;</b></p>
+                <p class="description"><b>Description: ----</b><br></p>
+                <p class="humidity"><b>Humidity: ----%</b><br></p>
+                <p class="speed"><b>Wind Speed: ---- km/hr</b></p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="{{url_for('static', filename='weather.js')}}"></script>
+</body>
+</html>

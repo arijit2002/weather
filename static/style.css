@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 5px;
+}
+html,body{
+    height:100%;
+}
+body{
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: center;
+    background:url(432471.jpg);
+    background-position:initial;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container{
+    margin-top: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    max-width: 420px;
+    min-height: 100px;
+    border-style: solid;
+    border-radius: 20px;
+    align-items: flex-start;
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    opacity: .7;
+}
+.class{
+    margin:10px;
+}
+.search-bar{
+    height: 25px;
+    width: 200px;
+    border-style: solid;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.sb{
+    margin-left: 2px;
+    border-style: solid;
+    border-radius: 20px;
+}
+.sb:hover{
+    border-style:dashed;
+    border-radius: 20px;
+}
+.weather1{
+    width:inherit;
+}
+.description{
+    text-transform: capitalize;
+}
