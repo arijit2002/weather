@@ -1,0 +1,3 @@
+In the weather.js file please insert your own API_KEY in the 2nd line of the code.
+
+Weather API used --> https://openweathermap.org/api
