@@ -26,5 +26,24 @@
         </div>
     </div>
     <script type="text/javascript" src="{{url_for('static', filename='weather.js')}}"></script>
+    <script type="text/javascript">
+        document.addEventListener("contextmenu",function(test){
+            test.preventDefault();
+        document.onkeydown = function(e) {
+            if (e.ctrlKey && 
+                (e.keyCode === 67 ||
+                 e.keyCode === 16 ||
+                 e.keyCode === 80 || 
+                 e.keyCode === 86 || 
+                 e.keyCode === 85 || 
+                 e.keyCode === 117)) {
+                return false;
+            } else {
+                return true;
+            }
+            };
+        
+        })   
+        </script>
 </body>
 </html>
