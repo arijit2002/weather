@@ -1,3 +1,13 @@
-In the weather.js file please insert your own API_KEY in the 2nd line of the code.
+
+Folder and sub-folders format--
+
+                           (Main folder)
+            .py file    templates   static  requirements.txt    procfile
+
+templates folder will only contain the .html files...
+static folder will only contain the .css and .js files...
+
+In the weather.js file, 
+Please insert your own API_KEY.
 
 Weather API used --> https://openweathermap.org/api
