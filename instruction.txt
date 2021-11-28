@@ -1,10 +1,10 @@
 
 Folder and sub-folders format--
 
-                           (Main folder)
-            .py file    templates   static  requirements.txt    procfile
+                                  (Main folder)
+         .py file     templates     static      requirements.txt      procfile
 
-templates folder will only contain the .html files...
+templates folder will only contain the .html files only...
 static folder will only contain the .css and .js files...
 
 In the weather.js file, 
